@@ -2,7 +2,7 @@
 def valid_move?
   if position_taken?
     # something ought to happen
-  else 
+  else
     # something different ought to happen
   end
 end
