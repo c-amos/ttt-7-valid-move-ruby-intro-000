@@ -1,10 +1,9 @@
 # code your #valid_move? method here
 def valid_move?
   if position_taken?
-    # something ought to happen
-  else
-    # something different ought to happen
+    return false
   end
+  return true
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
